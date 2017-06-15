@@ -1,20 +1,109 @@
-body {
-  background: url(http://wallpapercave.com/wp/8Kmriw0.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+.heading {
+  font-family: Garamond, serif;
+  font-size: 40px;
 
 }
 
+h1 {
+  text-align: center;
+  margin-top: 1%;
+  padding-bottom: .3em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+}
+
+#subheading {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.3em;
+}
+
+#one {
+  color: #1f577a;
+}
+
+#two {
+  color: #840d27;
+  padding-top: 1em;
+}
+
+#three {
+  color: #197a1c;
+  padding-top: 1em;
+}
+
+#four {
+  color: #ba590e;
+}
+
+#five {
+  color: #87326f;
+  padding-top: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+figcaption {
+  font-size: 10;
+  font-style: italic;
+  text-align: center;
+  margin-top: .5em;
+  font-size: smaller;
+}
+
+body {
+  background: url(https://image.freepik.com/free-photo/grey-textured-wall-background_1194-7159.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  margin: 0 auto;
+
+}
+
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  padding: 5%;
+  padding: 0 auto;
+  height: 100%;
+  background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg);
+  background-repeat: repeat;
+}
+
+p {
+  font-family: Garamond, serif;
+  font-size: 1.2em;
+}
+
+#goals {
+  margin: 8%;
+}
 
 #vigenere {
-  width: 30%;
-  height: 30%;
-
+  width: 70%;
+  height: 20em;
+  display: block;
+  margin: auto;
 }
 
 #koha {
-  width: 50%;
+  width: 80%;
   height: 30%;
+  display: block;
+  margin: auto;
+}
 
+footer {
+  background-image: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg);
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: Garamond, serif;
 }

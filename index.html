@@ -3,6 +3,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/infinity_symbol.png"/>
   <header>
       <title>My Projects - A Portfolio</title>
@@ -13,63 +14,67 @@
 <body>
   <main>
 
-    <h1>My Projects</h1>
+    <h1 class="heading">My Projects</h1>
+    <h3 id="subheading">(A Portfolio with Commentary)</h3>
 
     <article>
-      <h2><em>LaunchCode</em></h2>
-        <h4>Crypto</h4>
+      <h2 id="one"><em>LaunchCode</em></h2>
         <p>
+          Soon after I finished my library science degree, I began looking for my next long-term project. My partner had been trying to get me into coding for awhile, and I kept putting it off, saying I was too busy to stick with it. But she did some research and found this free, in person class that met only a couple nights a week, and asked if I would consider applying and see what happened. And thus began my coding journey.
+        </p>
+        <h3>Crypto</h3>
+        <p id="crypto_para">
           Crypto was the major assignment due at the end of Unit 1 of LaunchCode 101. It incorporates two pieces: a Caesar cipher, which encodes a message by shifting each character X number of places in the alphabet; and the Vigene&#768re cipher, which encypts the message by using a repeating keyword to determine the number of places in the alphabet each character will shift.
         </p>
-      <figure>
-        <img id="vigenere" src="images/Screenshot_Vigenere1.png" alt="Snapshot of lines of code"/>
-        <figcaption>
-          A piece of my Vigenere cipher code.
-        </figcaption>
-      </figure>
+        <figure>
+          <img id="vigenere" src="images/Screenshot_Vigenere1.png" alt="Snapshot of lines of code"/>
+          <figcaption>
+            A piece of my Vigenere cipher code.
+          </figcaption>
+        </figure>
 
 
     </article>
 
     <article>
-      <h2><em>Lambda School</em></h2>
+      <h2 id="two"><em>Lambda School</em></h2>
         <p>
-          Lambda School is an online bootcamp offering a variety of learning courses for students worldwide. While their part time and full time bootcamps require tuition, they periodically offer free online <a style="text-decoration: none" href="https://lambdaschool.com/mini-bootcamp/">mini-bootcamps</a> that include 6-8 webinars and homework assignments after each lesson. The lessons can be viewed live or asynchronously, and homework can be completed or not - no pressure! Topics rotate, but have included HTML, CSS, Javascript, Git and Github, and Python.
+          I've been following Lambda School for awhile, but it was only after I started Launch Code's program that I decided learning one language at a time wasn't enough, and I jumped into HTML and CSS as well. Lambda School is essentially an online bootcamp offering a variety of learning courses for students worldwide. While their part time and full time bootcamps require tuition, they periodically offer free online <a href="https://lambdaschool.com/mini-bootcamp/">mini-bootcamps</a> that include 6-8 webinars and homework assignments after each lesson. The lessons can be viewed live or asynchronously, and homework can be completed or not - no pressure! Topics rotate, but have included HTML, CSS, Javascript, Git and Github, and Python.
         </p>
         <p>
-          Homework instructions are cloned from an instructor's Github, and then we complete the assignments locally and post them on our own Github accounts. <a style="text-decoration: none" href="https://github.com/dpryor67/lswebhomework6">Here's</a> one of my homework repositories.
+          Homework instructions are cloned from an instructor's Github, and then we complete the assignments locally and post them on our own Github accounts. <a href="https://github.com/dpryor67/lswebhomework6">Here's</a> one of my homework repositories, from the latest HTML/CSS mini-bootcamp.
         </p>
     </article>
 
     <article>
-      <h2><em>Cookbook App</em></h2>
-      <h4>Project by Dana Pryor &amp Shannon Mulloy</h4>
+      <h2 id="three"><em>Cookbook App</em></h2>
+      <h4>by Dana Pryor &amp Shannon Mulloy</h4>
       <p>
-        My partner and I were tired of trying to remember if a recipe was on paper, scanned into our computers, or bookmarked on our phones, so we decided to build our own app! Cookbook will allow users to save recipes in one convenient location and access them easily on a computer or mobile device. They will be able to create their own profiles, search through and sort their recipe collections, and get new recipe ideas from other users.
+        Now that my partner had gotten me to start learning coding, she began trying to persuade me to work on a project together. During this same time, we were trying to learn how to cook, and soon became tired of trying to remember if a certain recipe was on paper, scanned into our computers, or bookmarked on our phones - so we decided to build our own app together. When finished, Cookbook will allow users to save recipes in one convenient location and access them easily on a computer or mobile device. They will be able to create their own profiles, search through and sort their recipe collections, and get new recipe ideas from other users.
       </p>
 
     </article>
 
-    <h1>Project Goals</h1>
+    <h1 class="heading" id="goals">Project Goals</h1>
 
     <article>
-      <h2><em>Contibute to Open Source Code</em></h2>
+      <h2 id="four"><em>Contibute to Open Source Code</em></h2>
       <p>
-        One of my coding goals is to learn enough to be able to contribute to an open source project. Koha is an open source integrated library system, which librarians use to create and regulate patron accounts, put holds on items in their collections, and in general complete most functions that libraries are known for. Having used it as a librarian, I would love to help improve its usability for others.
+        One of my coding goals is to learn enough to be able to contribute to an open source project related to library software. For example, Koha is an open source integrated library system, which librarians use to create and regulate patron accounts, put holds on items in their collections, and in general complete most functions that libraries are known for. Having used it when I was a librarian, I know how annoying it can be at times, so I would love to help improve its usability for others.
       </p>
 
       <figure>
         <img id="koha" src="images/Screenshot_Koha.png" alt="Screenshot of a repository on Github"/>
         <figcaption>
-          A screenshot of some pieces of Koha, an open source integrated library system.
+          A screenshot of the Github repository for Koha, an open source integrated library system.
         </figcaption>
       </figure>
     </article>
 
     <article>
-      <h2><em>Participate in a Hackathon</em></h2>
+      <h2 id="five"><em>Participate in a Hackathon</em></h2>
       <p>
-        Hackathons are awesome... the ones I've heard about involve meeting new people, some friendly competition, and free food and beer. I've been to one hackathon before but did not know anything about code at the time (honestly, I was just there for the free food and beer). I'd love to go to another one soon and really test my coding skills.
+        Another of my coding goals is to compete in a hackathon. Hackathons are awesome in general... they involve meeting new people, some friendly competition, and (usually) free food and drinks. I've been to one hackathon before but didn't know anything about code at the time (honestly, I was just there for the pizza and beer). I know next time I'll really make an impression, once people see how awesome I am at turning a background red or creating a for loop.
       </p>
     </article>
 
